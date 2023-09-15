@@ -18,11 +18,11 @@
           "types": [
             {
               "type": "feat",
-              "section": "Features"
+              "section": "Новый функционал"
             },
             {
               "type": "fix",
-              "section": "Bug Fixes"
+              "section": "Исправления багов"
             },
             {}
           ]
