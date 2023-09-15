@@ -4,7 +4,8 @@
     "requireUpstream": false,
     "push": false,
     "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
-    "requireCommits": true
+    "requireCommits": true,
+    "tagMatch": "D-[0-9]{3}.[0-9]{3}.[0-9]{3}*"
   },
   "npm": {
     "publish": false
