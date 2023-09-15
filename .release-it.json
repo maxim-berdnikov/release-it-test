@@ -2,7 +2,6 @@
     "git": {
       "commitMessage": "Release v${version}",
       "requireUpstream": false,
-      "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
       "push": false
     },
     "npm": {
