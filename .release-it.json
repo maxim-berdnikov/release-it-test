@@ -5,6 +5,7 @@
     "push": false,
     "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
     "requireCommits": true,
+    "tagName": "${repo.project}-${version}",
     "tagMatch": "D-[0-9]{3}.[0-9]{3}.[0-9]{3}*"
   },
   "npm": {
