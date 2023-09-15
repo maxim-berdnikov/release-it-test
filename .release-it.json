@@ -4,7 +4,6 @@
     "requireUpstream": false,
     "push": false,
     "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
-    "tag": false,
     "requireCommits": true
   },
   "npm": {
