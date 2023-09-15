@@ -1,33 +1,34 @@
 {
-    "git": {
-      "commitMessage": "Release v${version}",
-      "requireUpstream": false,
-      "push": false
-    },
-    "npm": {
-      "publish": false
-    },
-    "github": {
-      "release": false
-    },
-    "plugins": {
-      "@release-it/conventional-changelog": {
-        "infile": "CHANGELOG.md",
-        "preset": {
-          "name": "conventionalcommits",
-          "types": [
-            {
-              "type": "feat",
-              "section": "Новый функционал"
-            },
-            {
-              "type": "fix",
-              "section": "Исправления багов"
-            },
-            {}
-          ]
-        }
+  "git": {
+    "commitMessage": "Release v${version}",
+    "requireUpstream": false,
+    "push": false,
+    "changelog": "git log --pretty=format:\"* %s (%h)\" ${from}...${to}",
+    "tag": false
+  },
+  "npm": {
+    "publish": false
+  },
+  "github": {
+    "release": false
+  },
+  "plugins": {
+    "@release-it/conventional-changelog": {
+      "infile": "CHANGELOG.md",
+      "preset": {
+        "name": "conventionalcommits",
+        "types": [
+          {
+            "type": "feat",
+            "section": "Новый функционал"
+          },
+          {
+            "type": "fix",
+            "section": "Исправления багов"
+          },
+          {}
+        ]
       }
     }
   }
-  
+}
