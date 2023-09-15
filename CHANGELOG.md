@@ -1,5 +1,12 @@
 
 
+## 1.8.1 (2023-09-15)
+
+
+### Исправления багов
+
+* Фикс 1 ([5187a04](https://github.com/maxim-berdnikov/release-it-test/commit/5187a0489f98983eab0bbead5c5aba4c706832fb))
+
 ## 1.8.0 (2023-09-15)
 
 
